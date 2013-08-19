@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Balancing Relationships With Independence</li>
+					<li data-theme="d">The novel follows Janie's journey to establish herself as a powerful and independent woman, however she does not make this happen on her own as it takes all three of her marriages to mold her into the person she becomes.</li>
+					<li data-theme="c">It appears as if Janie's development requires the guidance that one can only gain through experience and relationships.</li>
+					<li data-theme="d">Tea Cake's love, for example, provides Janie with a satisfying and fulfilling relationship in which she and her partner both share a powerful and mutual love and respect for one another.</li>
+					<li data-theme="c">It is this relationship that provides Janie with the necessary tools to reach her full potential as an individual.</li>
+					<li data-theme="d">Janie also proves that though relationships are necessary for developing ones potential as an individual, they are not necessary to fullfil ones self spiritually.</li>
+					<li data-theme="c">She shows after her second relationship, as well as after Tea Cake's death, that despite being left alone, she is still a strong and resilient woman and she is not alone spiritually.</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Personal Fulfillment Through Material Means and Obtaining Power</li>
+					<li data-theme="d">Jody spends his life pushing control over other as he marries Janie to make her his trophy wife as well as somewhat forcing himself into the postion of mayor in Eatonville.</li>
+					<li data-theme="c">It appears as if this feeling of power is what drives Jody.</li>
+					<li data-theme="d">Jody also proves to be obsessed with material objects and tries to satisfy himself with the purchases of luxurious things as he believes what he owns will define him as a person.</li>
+					<li data-theme="c">This approach to life however seems to come back to haunt Jody in the end, as he is in no control over his deteriorating health, and his personality is not suited for helping him cope with his impending death.</li>
+					<li data-theme="d">Before he dies he is also unable to keep Janie's strong will in check as he had before in their marriage, and in the end it seems as if everything around him falls apart due to his materialistic and controlling approach to life.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Their Eyes Were Watching God</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
